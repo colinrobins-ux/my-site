@@ -338,6 +338,58 @@ footer p {
     font-size: 0.9rem;
 }
 
+.weather-card {
+    max-width: 220px;
+    margin: 1.5rem auto 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.weather-card h3 {
+    color: #2b6cb0;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.weather-emoji {
+    font-size: 1.5rem;
+}
+
+.weather-temp {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.weather-location {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: #4a5568;
+}
+
+.weather-loading {
+    color: #4a5568;
+    font-size: 0.8rem;
+}
+
+.weather-error {
+    color: #e53e3e;
+    font-size: 0.7rem;
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
